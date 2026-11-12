@@ -1,4 +1,4 @@
-RECUPERAÇÃO DO POMODORO TIMER APP — CYBERPUNK NEON
+RECUPERAÇÃO DO POMODORO TIMER APP — DESIGN FUTURISTA
 
 1. Faça backup da pasta atual do projeto antes de substituir qualquer arquivo.
 2. Extraia este ZIP e copie o conteúdo para dentro da pasta EXISTENTE pomodoro_timer_app.
@@ -15,5 +15,4 @@ RECUPERAÇÃO DO POMODORO TIMER APP — CYBERPUNK NEON
 5. Abra http://127.0.0.1:8080 (não troque para localhost se seus dados foram salvos em 127.0.0.1).
 6. No Edge, teste adicionar/concluir/excluir tarefas, F5, sessões e dashboard.
 
-Observação: não foi possível executar Flutter Analyze neste ambiente de criação;
-valide os comandos no seu computador. Os arquivos foram revisados estaticamente.
+
