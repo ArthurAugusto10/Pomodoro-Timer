@@ -1,0 +1,19 @@
+RECUPERAÇÃO DO POMODORO TIMER APP — CYBERPUNK NEON
+
+1. Faça backup da pasta atual do projeto antes de substituir qualquer arquivo.
+2. Extraia este ZIP e copie o conteúdo para dentro da pasta EXISTENTE pomodoro_timer_app.
+   Mescle as pastas e substitua os arquivos com os mesmos nomes.
+   NÃO apague as pastas android/, ios/, web/, windows/ nem a pasta .git/.
+3. Suas imagens existentes devem permanecer em assets/images/backgrounds/.
+   Se não tiver imagens, o app usa um fundo em gradiente sem quebrar.
+4. No VS Code, abra a pasta do projeto e execute:
+   flutter pub get
+   dart format lib test
+   flutter analyze
+   flutter test
+   flutter run -d web-server --web-hostname 127.0.0.1 --web-port 8080
+5. Abra http://127.0.0.1:8080 (não troque para localhost se seus dados foram salvos em 127.0.0.1).
+6. No Edge, teste adicionar/concluir/excluir tarefas, F5, sessões e dashboard.
+
+Observação: não foi possível executar Flutter Analyze neste ambiente de criação;
+valide os comandos no seu computador. Os arquivos foram revisados estaticamente.

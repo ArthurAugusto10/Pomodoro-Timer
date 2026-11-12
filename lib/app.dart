@@ -1,6 +1,6 @@
-
 import 'package:flutter/material.dart';
 import 'pages/tela_inicial.dart';
+import 'themes/app_theme.dart';
 
 class PomodoroApp extends StatelessWidget {
   const PomodoroApp({super.key});
@@ -8,16 +8,9 @@ class PomodoroApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Pomodoro Timer App',
+      title: 'Pomodoro Timer',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(
-          seedColor: Colors.deepPurple,
-          brightness: Brightness.dark,
-        ),
-        useMaterial3: true,
-        scaffoldBackgroundColor: const Color(0xFF151521),
-      ),
+      theme: AppTheme.cyberpunk,
       home: const TelaInicial(),
     );
   }

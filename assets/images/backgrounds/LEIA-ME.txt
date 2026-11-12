@@ -1,0 +1,6 @@
+Coloque aqui suas próprias imagens:
+- bg_home.jpg
+- bg_dashboard.jpg
+
+Sem essas imagens, o app continua com um gradiente Cyberpunk Neon.
+Mantenha a mesma origem web (127.0.0.1:8080) para acessar as tarefas e sessões já salvas.
