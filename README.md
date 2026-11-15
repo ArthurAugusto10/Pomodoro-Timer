@@ -1,30 +1,52 @@
+# Pomodoro Timer
 
-# Pomodoro-Timer
+## Sobre o projeto
 
-<h3>Contexto</h3>
-Esse projeto surgiu apartir de uma necessidade de construir um app que ajudesse pessoas a aplicar o Pomodoro na palma da mão, 
-o app é construido dentro da metodologia Pomoro que o intuito é fazer tarefas em ciclos de 25min com o objetivo de focar o mais rapido possivel nas atividades, ao inves de estudar sem um tempo de pausa (Ex: estudar 3h direto) aqui o intuito é estudar 25min e logo após esse ciclo pomodoro você é recompeçado com 5min de descanso. 
+O **Pomodoro Timer** é um aplicativo desenvolvido com Flutter, com o objetivo de ajudar pessoas a melhorar sua produtividade e organização durante os estudos ou atividades do dia a dia, utilizando a **Técnica Pomodoro**.
 
-<h3>Biblioteca</h3>
-Bibliotecas utilizadas no app:
+A metodologia consiste em dividir o tempo de trabalho em ciclos de concentração e descanso. O formato tradicional utiliza:
 
-• flutter: SDK principal do Flutter.
-• cupertino_icons (v1.0.8): Conjunto de ícones para serem usados nos widgets do aplicativo.
-• shared_preferences (v2.5.6): Permite salvar dados localmente no dispositivo usando o formato chave-valor.
+- **25 minutos:** período de foco total na atividade.
+- **5 minutos:** intervalo para descanso após cada ciclo.
 
-<h3>Como Inicializar o Projeto</h3>
+A proposta é incentivar a concentração, evitar longos períodos de esforço contínuo e proporcionar pausas regulares, contribuindo para uma rotina mais produtiva.
 
-Passo a passo pelo terminal
+## Tecnologias e bibliotecas utilizadas
 
-1. Verifique o ambiente e dispositivos
-Execute o comando abaixo para garantir que o Flutter reconheceu seu celular ou emulador.bash
+O projeto foi desenvolvido utilizando as seguintes tecnologias e bibliotecas:
+
+| Biblioteca | Versão | Descrição |
+|---|---|---|
+| Flutter | — | SDK principal utilizado no desenvolvimento do aplicativo. |
+| cupertino_icons | 1.0.8 | Conjunto de ícones para utilização nos componentes da interface. |
+| shared_preferences | 2.5.6 | Biblioteca utilizada para armazenamento local de dados no formato chave-valor. |
+
+## Como executar o projeto
+
+Siga os passos abaixo para configurar e executar o aplicativo em seu ambiente de desenvolvimento.
+
+### 1. Verificar o ambiente e os dispositivos
+
+Certifique-se de que o Flutter está instalado e reconhece seu dispositivo físico ou emulador.
+
+```bash
 flutter devices
+```
 
-2. Baixe as bibliotecas do projeto
-Como o seu projeto tem dependências no pubspec.yaml, instale-as antes da primeira execução.bash
+### 2. Instalar as dependências
+
+Execute o comando abaixo para instalar todas as bibliotecas e dependências definidas no arquivo `pubspec.yaml`.
+
+```bash
 flutter pub get
+```
 
-3. Inicie o aplicativo
-Rode o comando principal para compilar e abrir o app no dispositivo conectado.bash
+### 3. Executar o aplicativo
+
+Com o dispositivo conectado ou emulador iniciado, execute:
+
+```bash
 flutter run
+```
 
+O Flutter irá compilar e iniciar o aplicativo no dispositivo selecionado.
